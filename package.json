@@ -1,0 +1,29 @@
+{
+  "name": "hca-mqtt",
+  "version": "0.0.0",
+  "description": "Provides a MQTT Server to HCA",
+  "main": "www.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mr2025/HCA_MQTT.git"
+  },
+  "keywords": [
+    "HCA",
+    "Home",
+    "automation"
+  ],
+  "author": "Jason McBurney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mr2025/HCA_MQTT/issues"
+  },
+  "homepage": "https://github.com/Mr2025/HCA_MQTT#readme",
+  "dependencies": {
+    "hca-proxy": "^0.2.3",
+    "mqtt": "^3.0.0",
+    "mqtt-packet": "^6.1.2"
+  }
+}
